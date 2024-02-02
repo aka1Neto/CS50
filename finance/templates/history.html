@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Symbol</th>
+                <th scope="col">Name</th>
+                <th scope="col">Shares</th>
+                <th scope="col">Price</th>
+                <th scope="col">Method</th>
+                <th scope="col">Total</th>
+                <th scope="col">Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in data %}
+                <tr>
+                    <td>{{  stock['symbol']  }}</td>
+                    <td>{{  stock['comp_name']  }}</td>
+                    <td>{{  stock['shares']  }}</td>
+                    <td>{{  stock['price']  }}</td>
+                    <td>{{  stock['method']  }}</td>
+                    <td>{{  stock['total']  }}</td>
+                    <td>{{  stock['date_time']  }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
