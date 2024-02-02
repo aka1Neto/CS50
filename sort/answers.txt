@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Works better with sorted numbers;
+
+sort2 uses: Merge Sort
+
+How do you know?: It is better than the other algorithms when works with big amounts of data;
+
+sort3 uses: Selection Sort
+
+How do you know?: It is always O(n²).

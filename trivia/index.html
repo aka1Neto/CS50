@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            let selectedButton = null;
+
+            function Change(color) {
+            if(color === "red"){
+                document.querySelector('#question1').innerHTML = "Incorrect.";
+            }
+            else{
+                document.querySelector('#question1').innerHTML = "Correct.";
+            }
+            if (selectedButton) {
+                selectedButton.style.backgroundColor = 'initial';
+            }
+            event.target.style.backgroundColor = color;
+            selectedButton = event.target;
+            }
+
+            function Check(){
+                let answer = document.querySelector("input").value.toLowerCase();
+                if(answer === "blackwatch"){
+                    document.querySelector('#inputField').style.backgroundColor = "green";
+                    document.querySelector('#question2').innerHTML = "Correct!";
+                }
+                else{
+                    document.querySelector('#inputField').style.backgroundColor = "red";
+                    document.querySelector('#question2').innerHTML = "Incorrect.";
+                }
+            }
+
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Who is the Overwatch character that can go back in time?</h3>
+                <button onclick="Change('green')">Tracer</button>
+                <button onclick="Change('red')">Reaper</button>
+                <button onclick="Change('red')">Winston</button>
+                <button onclick="Change('red')">Pharah</button>
+                <button onclick="Change('red')">Sombra</button>
+                <button onclick="Change('red')">Mercy</button>
+                <p id="question1"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What is the Overwatch ramification that deals with secret and non-ethical missions?</h3>
+                <input id="inputField" type="text">
+                <button onclick="Check()">Check Answer</button>
+                <p id="question2"></p>
+            </div>
+        </div>
+    </body>
+</html>
