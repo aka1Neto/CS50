@@ -4,7 +4,7 @@
 
 Before reading the files in this repository, please remember the [Academic Honesty](https://cs50.harvard.edu/x/honesty/).\
 These files serve to give you a sense of how to solve the problems **if** you feel lost.\
-Do not copy and paste any of these files; try to solve the problems yourself!
+Do not copy and paste any of these files. Try to solve the problems yourself!
 
 ## Submissions
 
