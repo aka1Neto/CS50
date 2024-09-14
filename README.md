@@ -14,12 +14,12 @@ Do not copy and paste any of these files. Try to solve the problems yourself!
    - [Credit](week1/credit)
    
 * **[Arrays](week2)**
-   - [Readability](week2/readbility)
+   - [Readability](week2/readability)
    - [Substitution](week2/substitution)
    - [Scrabble](week2/scrabble)
    
 * **[Algorithms](week3)**
-   - [Plurality](week3/pluralty)
+   - [Plurality](week3/plurality)
    - [Tideman](week3/tideman)
    - [Sort](week3/sort)
    
