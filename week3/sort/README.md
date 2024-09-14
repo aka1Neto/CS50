@@ -2,4 +2,4 @@
 
 Click the image below to visit the webpage:
 
-[![CS50 Hello Problem Set](sort.png)](https://cs50.harvard.edu/x/2023/labs/3/)
+[![CS50 Problem Set](sort.png)](https://cs50.harvard.edu/x/2023/labs/3/)

@@ -2,4 +2,4 @@
 
 Click the image below to visit the webpage:
 
-[![CS50 Hello Problem Set](credit.png)](https://cs50.harvard.edu/x/2023/psets/6/credit/)
+[![CS50 Problem Set](credit.png)](https://cs50.harvard.edu/x/2023/psets/6/credit/)

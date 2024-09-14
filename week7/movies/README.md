@@ -2,4 +2,4 @@
 
 Click the image below to visit the webpage:
 
-[![CS50 Hello Problem Set](movies.png)](https://cs50.harvard.edu/x/2023/psets/7/movies/)
+[![CS50 Problem Set](movies.png)](https://cs50.harvard.edu/x/2023/psets/7/movies/)
